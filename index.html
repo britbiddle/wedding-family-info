@@ -204,6 +204,7 @@
       font-weight: 700;
     }
     .chip.highlight { background: var(--navy); color: var(--white); }
+    .chip.ali { background: #9b59b6; color: #fff; }
 
     /* ── INFO CARDS ── */
     .cards {
@@ -430,7 +431,17 @@
   <p class="hero-sub">Mystic, Connecticut</p>
   <h1>Ali <em>&amp;</em> Brit</h1>
   <p class="hero-dates">July 2 – 5, 2026 &nbsp;·&nbsp; Family Weekend Guide</p>
-  <div style="margin-top:2.5rem;">
+  <div style="margin-top:2rem; display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
+    <div style="display:inline-flex; align-items:center; gap:.5rem; background:rgba(168,212,238,.2); border:1px solid rgba(168,212,238,.35); border-radius:999px; padding:.4rem 1rem; font-size:.82rem; color:var(--white);">
+      <span style="background:#A8D4EE; border-radius:999px; padding:.1rem .6rem; font-size:.72rem; font-weight:700; color:#1B3A5C;">Biddle Family</span>
+      light blue chips
+    </div>
+    <div style="display:inline-flex; align-items:center; gap:.5rem; background:rgba(155,89,182,.2); border:1px solid rgba(155,89,182,.4); border-radius:999px; padding:.4rem 1rem; font-size:.82rem; color:var(--white);">
+      <span style="background:#9b59b6; border-radius:999px; padding:.1rem .6rem; font-size:.72rem; font-weight:700; color:#fff;">Sabeti Family</span>
+      purple chips
+    </div>
+  </div>
+  <div style="margin-top:1.5rem;">
     <div class="contact-badge">
       Questions? &nbsp;<strong>Wedding Planner Evan Chestnutt</strong>&nbsp; +1 (858) 335-7996
     </div>
@@ -468,8 +479,8 @@
           <div class="tl-title">Rehearsal Dinner at Ocean House</div>
           <div class="tl-detail">$5 valet parking available</div>
           <div class="tl-people">
-            <span class="chip">Brit</span><span class="chip">Ali</span>
-            <span class="chip">Mona</span><span class="chip">Monir</span>
+            <span class="chip">Brit</span><span class="chip ali">Ali</span>
+            <span class="chip ali">Mona</span><span class="chip ali">Monir</span>
             <span class="chip">Kristen</span><span class="chip">Gib</span>
             <span class="chip">Ruchit</span><span class="chip">Kelsey</span>
           </div>
@@ -510,7 +521,7 @@
           <div class="tl-people">
             <span class="chip">Ruchit</span><span class="chip">Kelsey</span>
             <span class="chip">Mom</span><span class="chip">Dad</span>
-            <span class="chip">Arden</span><span class="chip">Mona</span><span class="chip">Tracy</span>
+            <span class="chip ali">Arden</span><span class="chip ali">Mona</span><span class="chip ali">Tracy</span>
           </div>
         </div>
       </div>
@@ -598,7 +609,7 @@
         <div class="tl-body">
           <div class="tl-title">Hair &amp; Makeup</div>
           <div class="tl-detail">Brit to confirm exact time<br>Mona — hair &amp; makeup in the Big House Living Room</div>
-          <div class="tl-people"><span class="chip">Mom</span><span class="chip">Mona</span></div>
+          <div class="tl-people"><span class="chip">Mom</span><span class="chip ali">Mona</span></div>
         </div>
       </div>
       <div class="tl-item">
@@ -639,8 +650,8 @@
           <div class="tl-people">
             <span class="chip">Ruchit</span><span class="chip">Kelsey</span>
             <span class="chip">Mom</span><span class="chip">Dad</span><span class="chip">Pat</span>
-            <span class="chip">Arram</span><span class="chip">Tracy</span>
-            <span class="chip">Mona</span><span class="chip">Monir</span><span class="chip">Arden</span>
+            <span class="chip ali">Arram</span><span class="chip ali">Tracy</span>
+            <span class="chip ali">Mona</span><span class="chip ali">Monir</span><span class="chip ali">Arden</span>
           </div>
         </div>
       </div>
@@ -657,7 +668,7 @@
           <div class="tl-people">
             <span class="chip">Ruchit</span><span class="chip">Mom</span>
             <span class="chip">Dad</span><span class="chip">Kelsey</span>
-            <span class="chip">Arden</span><span class="chip">Mona</span>
+            <span class="chip ali">Arden</span><span class="chip ali">Mona</span>
           </div>
           <div class="tl-detail" style="margin-top:.35rem;">Mona TBD if Arden doesn't want to walk by himself</div>
         </div>
@@ -1055,8 +1066,9 @@
       <li>
         <span class="icon">🍽</span>
         <div>
-          <strong>Meals:</strong> Thursday dinner, Friday lunch, Friday dinner (Welcome Party), Saturday dinner (Reception), and Sunday brunch are all covered. Fri/Sat breakfast is self-serve.<br>
-          <span style="font-size:.88rem; color:var(--light-text); margin-top:.25rem; display:block;"><strong>Sabeti family note:</strong> We suggest stopping at a grocery store to stock up on some breakfast basics. Saturday lunch is sandwiches from Mystic Market for all.</span>
+          <strong>Meals covered for everyone:</strong> Thursday dinner, Friday lunch, Friday dinner (Welcome Party), Saturday dinner (Reception), and Sunday brunch.<br>
+          <span style="font-size:.88rem; margin-top:.4rem; display:block;"><strong>Biddle family (Big House):</strong> Self-serve breakfast is available Friday and Saturday. Saturday lunch is sandwiches from Mystic Market. Remember to eat!</span>
+          <span style="font-size:.88rem; color:var(--light-text); margin-top:.3rem; display:block;"><strong>Sabeti family note:</strong> You are on your own for Friday breakfast, Saturday breakfast, and Saturday lunch. We suggest stopping at a grocery store before arriving to stock up on basics.</span>
         </div>
       </li>
       <li class="warn">
